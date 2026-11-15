@@ -1,0 +1,18 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+# Local database files and logs
+*.sql.gz
+*.log
+data/
+mongodb-data/
+mysql-data/
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
